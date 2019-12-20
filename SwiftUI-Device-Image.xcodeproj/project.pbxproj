@@ -18,6 +18,9 @@
 		AD0D864423AC955C00E7A820 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D864323AC955C00E7A820 /* AppSettings.swift */; };
 		AD0D864723AC967F00E7A820 /* ImagePickAndDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D864623AC967F00E7A820 /* ImagePickAndDisplayView.swift */; };
 		AD0D864923AC981800E7A820 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D864823AC981800E7A820 /* ImagePicker.swift */; };
+		AD0D864C23ACB50200E7A820 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D864B23ACB50200E7A820 /* ImagePickerView.swift */; };
+		AD0D864E23ACB73600E7A820 /* ImagePickAndDisplaySwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D864D23ACB73600E7A820 /* ImagePickAndDisplaySwiftUIView.swift */; };
+		ADD390D623ACB9CB009555FE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD390D523ACB9CB009555FE /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		AD0D864623AC967F00E7A820 /* ImagePickAndDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickAndDisplayView.swift; sourceTree = "<group>"; };
 		AD0D864823AC981800E7A820 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		AD0D864A23ACAACB00E7A820 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AD0D864B23ACB50200E7A820 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		AD0D864D23ACB73600E7A820 /* ImagePickAndDisplaySwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickAndDisplaySwiftUIView.swift; sourceTree = "<group>"; };
+		ADD390D523ACB9CB009555FE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +164,10 @@
 			isa = PBXGroup;
 			children = (
 				AD0D861623AC948800E7A820 /* ContentView.swift */,
+				ADD390D523ACB9CB009555FE /* MenuView.swift */,
 				AD0D864623AC967F00E7A820 /* ImagePickAndDisplayView.swift */,
+				AD0D864B23ACB50200E7A820 /* ImagePickerView.swift */,
+				AD0D864D23ACB73600E7A820 /* ImagePickAndDisplaySwiftUIView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,10 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0D864E23ACB73600E7A820 /* ImagePickAndDisplaySwiftUIView.swift in Sources */,
 				AD0D861323AC948800E7A820 /* AppDelegate.swift in Sources */,
 				AD0D861523AC948800E7A820 /* SceneDelegate.swift in Sources */,
 				AD0D864423AC955C00E7A820 /* AppSettings.swift in Sources */,
+				ADD390D623ACB9CB009555FE /* MenuView.swift in Sources */,
 				AD0D864923AC981800E7A820 /* ImagePicker.swift in Sources */,
+				AD0D864C23ACB50200E7A820 /* ImagePickerView.swift in Sources */,
 				AD0D861723AC948800E7A820 /* ContentView.swift in Sources */,
 				AD0D864723AC967F00E7A820 /* ImagePickAndDisplayView.swift in Sources */,
 			);

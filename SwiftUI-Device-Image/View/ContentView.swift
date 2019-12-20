@@ -8,28 +8,13 @@
 
 import SwiftUI
 
-struct Menu: Identifiable {
-    var id: Int
-    var name: String
-}
-
-private let menus = [
-    Menu(id: 0, name: "present"),
-    Menu(id: 1, name: "SwiftUI")
-]
-
 struct ContentView: View {
     @EnvironmentObject var appSettings: AppSettings
 
     var body: some View {
         NavigationView {
-            List(menus) { menu in
-                if menu.id == 0 {
-                    NavigationLink(menu.name, destination: ImagePickAndDisplayView().environmentObject(self.appSettings))
-                } else {
-                    EmptyView()
-                }
-            }.navigationBarTitle("Device Image")
+            MenuView()
+                .navigationBarTitle("Device Image")
         }
     }
 }
