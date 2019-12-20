@@ -39,3 +39,9 @@ struct ImagePickerView: View {
         imagePicker.pick(on: viewController)
     }
 }
+
+struct ImagePickerView_Preview: PreviewProvider {
+    static var previews: some View {
+        return ImagePickerView()
+    }
+}
