@@ -1,5 +1,5 @@
 //
-//  ImagePickerView.swift
+//  ImagePickAndDisplayView.swift
 //  SwiftUI-Device-Image
 //
 //  Created by Kazuya Ueoka on 2019/12/20.
@@ -10,7 +10,7 @@ import SwiftUI
 import Combine
 import UIKit
 
-struct ImagePickerView: View {
+struct ImagePickAndDisplayView: View {
     @EnvironmentObject var appSettings: AppSettings
     @ObservedObject var imagePicker = ImagePicker()
 
@@ -42,6 +42,6 @@ struct ImagePickerView: View {
 
 struct ImagePickerView_Preview: PreviewProvider {
     static var previews: some View {
-        return ImagePickerView()
+        return ImagePickAndDisplayView()
     }
 }

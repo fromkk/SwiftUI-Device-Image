@@ -14,7 +14,8 @@ struct Menu: Identifiable {
 }
 
 private let menus = [
-    Menu(id: 0, name: "ImagePickerView")
+    Menu(id: 0, name: "present"),
+    Menu(id: 1, name: "SwiftUI")
 ]
 
 struct ContentView: View {
@@ -24,7 +25,7 @@ struct ContentView: View {
         NavigationView {
             List(menus) { menu in
                 if menu.id == 0 {
-                    NavigationLink(menu.name, destination: ImagePickerView().environmentObject(self.appSettings))
+                    NavigationLink(menu.name, destination: ImagePickAndDisplayView().environmentObject(self.appSettings))
                 } else {
                     EmptyView()
                 }
